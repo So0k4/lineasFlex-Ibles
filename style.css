@@ -1,0 +1,25 @@
+.row{
+    background-color: aqua;
+    display: flex;  
+    height: 50px;
+    gap: 15px;
+}
+.col{
+    border: 1px solid;
+    height: 15px;
+    background-color: rebeccapurple;
+    justify-content: space-between;
+    flex: 1;
+}
+.col-2{
+    border: 1px solid;
+    height: 15px;
+    background-color: brown;
+    flex: 2;
+}
+.col-3{
+    border: 1px solid;
+    height: 15px;
+    background-color:antiquewhite;
+    flex: 3;
+}
